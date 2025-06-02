@@ -1,12 +1,18 @@
-# Task 2 - Simple PHP Blog (CRUD + Auth)
+# Advanced PHP Blog (Roles, Auth, CRUD, Search, Pagination)
 
-This task implements a basic blog system using PHP and MySQL. It supports user registration, login, and CRUD operations for blog posts.
+This task implements a feature-rich blog system using PHP and MySQL, with user roles and advanced CRUD functionality.
 
 ## Features
 
 - User registration and login with password hashing
+- Session-based authentication
+- Role-based access control:
+  - **Admin**: Can edit and delete any post
+  - **Editor**: Can only edit posts
 - Create, read, update, and delete blog posts
-- Simple session-based authentication
+- Search posts by title or content
+- Pagination (5 posts per page)
+- Bootstrap 5 UI
 
 ## Setup
 
@@ -16,8 +22,10 @@ This task implements a basic blog system using PHP and MySQL. It supports user r
 
 ## Usage
 
-- Register a new user.
+- Register a new user (choose role: admin/editor).
 - Login to access the blog dashboard.
-- Create, edit, or delete posts.
+- Create, edit, or delete posts (as per your role).
+- Use the search bar to find posts.
+- Navigate pages using pagination controls.
 
 ---
